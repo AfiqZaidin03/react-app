@@ -1,3 +1,4 @@
+import Alert from "./components/Alert";
 import ListGroup from "./components/ListGroup";
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
+      <Alert>
+        Hello <span>World</span>
+      </Alert>
     </div>
   );
 }

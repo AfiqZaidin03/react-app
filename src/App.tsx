@@ -1,9 +1,16 @@
 import ListGroup from "./components/ListGroup";
 
 function App() {
+  const items = [
+    "Selangor",
+    "Kuala Lumpur",
+    "Putrajaya",
+    "Negeri Sembilan",
+    "Pahang",
+  ];
   return (
     <div>
-      <ListGroup />
+      <ListGroup items={items} heading="Cities" />
     </div>
   );
 }
